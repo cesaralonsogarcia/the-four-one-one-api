@@ -1,0 +1,27 @@
+{
+  "name": "the-four-one-one-api",
+  "version": "1.0.0",
+  "description": "\"Social Network API\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesaralonsogarcia/the-four-one-one-api.git"
+  },
+  "author": "Cesar Alonso Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesaralonsogarcia/the-four-one-one-api/issues"
+  },
+  "homepage": "https://github.com/cesaralonsogarcia/the-four-one-one-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
