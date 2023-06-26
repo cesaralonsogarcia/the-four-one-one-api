@@ -15,7 +15,7 @@ const friendCount = async (req, res) => {
                 }
             }
         ]);
-        res.json(friendCount);
+        return res.json(friendCount);
     } catch (err) {
         console.log(err);
         res.status(500).json(err);
