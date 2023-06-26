@@ -3,24 +3,10 @@ const { ObjectId } = require('mongoose').Types;
 const { User, Thought } = require('../models');
 
 // Aggregate function for counting the number of friends
-const friendCount = async (req, res) => {
-    try {
-        const friendCount = await User.aggregate([
-            {
-                $match: { _id: ObjectId(req.params.id) }
-            },
-            {
-                $project: {
-                    friendCount: { $size: '$friends' }
-                }
-            }
-        ]);
-        return res.json(friendCount);
-    } catch (err) {
-        console.log(err);
-        res.status(500).json(err);
-    }
-}
+// const friendCount = async (req, res) => {
+//     const friends = await User.aggregate([
+//         $match: { friends }
+//     ])
 
 module.exports = {
     // Get users
@@ -29,7 +15,7 @@ module.exports = {
             const users = await User.find({});
             const userObj = {
                 users,
-                friendCount: await friendCount(),
+                //friendCount: await friendCount(),
             };
             return res.json(userObj);
         } catch (err) {

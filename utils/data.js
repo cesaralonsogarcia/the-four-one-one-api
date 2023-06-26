@@ -1,55 +1,55 @@
 const users = [
     {
-        'username': 'dualipa',
-        'email': 'dua@mail.com',
+        username: 'dualipa',
+        email: 'dua@mail.com',
     },
     {
-        'username': 'taylorswift',
-        'email': 'ts@mail.com',
+        username: 'taylorswift',
+        email: 'ts@mail.com',
     },
     {
-        'username': 'arianagrande',
-        'email': 'ari@mail.com',
+        username: 'arianagrande',
+        email: 'ari@mail.com',
     },
     {
-        'username': 'selenagomez',
-        'email': 'sgomez@mail.com',
+        username: 'selenagomez',
+        email: 'sgomez@mail.com',
     },
     {
-        'username': 'mileycyrus',
-        'email': 'miley@mail.com',
+        username: 'mileycyrus',
+        email: 'miley@mail.com',
     },
     {
-        'username': 'katyperry',
-        'email': 'perry@mail.com',
+        username: 'katyperry',
+        email: 'perry@mail.com',
     },
     {
-        'username': 'ladygaga',
-        'email': 'ldgg@mail.com',
+        username: 'ladygaga',
+        email: 'ldgg@mail.com',
     },
     {
-        'username': 'billieeilish',
-        'email': 'billie@mail.com',
+        username: 'billieeilish',
+        email: 'billie@mail.com',
     },
     {
-        'username': 'shakira',
-        'email': 'shakira@mail.com',
+        username: 'shakira',
+        email: 'shakira@mail.com',
     },
     {   
-        'username': 'zaralarsson',
-        'email': 'zara@mail.com',
+        username: 'zaralarsson',
+        email: 'zara@mail.com',
     },
     {
-        'username': 'beyonce',
-        'email': 'bey@mail.com',
+        username: 'beyonce',
+        email: 'bey@mail.com',
     },
     {
-        'username': 'badgalriri',
-        'email': 'rihanna@mail.com',
+        username: 'badgalriri',
+        email: 'rihanna@mail.com',
     },
     {
-        'username': 'adele',
-        'email': 'adele@mail.com',
+        username: 'adele',
+        email: 'adele@mail.com',
     }
 ];
 
@@ -86,7 +86,7 @@ const getRandomReactions = (int) => {
     for (let i = 0; i < int; i++) {
         reactionsArr.push({
             reactionBody: getRandomElement(reactions),
-            username: getRandomElement(users).username,
+            username: users[i].username,
         });
     }
     return reactionsArr;
