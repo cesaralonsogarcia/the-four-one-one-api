@@ -86,7 +86,7 @@ const getRandomReactions = (int) => {
     for (let i = 0; i < int; i++) {
         reactionsArr.push({
             reactionBody: getRandomElement(reactions),
-            username: getRandomElement(users.username),
+            username: getRandomElement(users).username,
         });
     }
     return reactionsArr;

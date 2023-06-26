@@ -16,10 +16,10 @@ connection.once('open', async () => {
     // Create empty array to hold the users
     const users = [];
 
-    // Loop 20 times -- add students to the students array
-    for (let i = 0; i < 20; i++) {
+    // Loop 10 times -- add students to the students array
+    for (let i = 0; i < 10; i++) {
         // Get some random thought objects using a helper function that we imported from ./data
-        const reactions = getRandomReactions(20);
+        const reactions = getRandomReactions(15);
 
         const users = getUsers();
 
