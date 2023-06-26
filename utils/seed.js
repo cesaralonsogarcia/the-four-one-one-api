@@ -1,6 +1,6 @@
 const connection = require('../config/connection');
 const { User, Thought } = require('../models');
-const { getRandomUser, getRandomReactions } = require('./data');
+const { getUsers, getRandomReactions } = require('./data');
 
 connection.on('error', (err) => err);
 
@@ -21,7 +21,7 @@ connection.once('open', async () => {
         // Get some random thought objects using a helper function that we imported from ./data
         const reactions = getRandomReactions(20);
 
-        const users = getRandomUser();
+        const users = getUsers();
 
         users.push(reactions);
     }
