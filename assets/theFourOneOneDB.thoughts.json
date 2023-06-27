@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece89"
+  },
+  "thoughtText": "Check out my new song!",
+  "createdAt": "06/12/2023",
+  "username": "dualipa",
+  "reactions": [
+    {
+      "reactionBody": "I love it!",
+      "username": "taylorswift",
+      "createdAt": {
+        "$date": "2023-06-27T20:00:20.654Z"
+      },
+      "_id": {
+        "$oid": "649b43ec4beb3d70ba194b25"
+      },
+      "reactionId": {
+        "$oid": "649b43ec4beb3d70ba194b26"
+      }
+    },
+    {
+      "reactionBody": "When did you record it?",
+      "username": "ritaora",
+      "createdAt": {
+        "$date": "2023-06-27T20:00:20.654Z"
+      },
+      "_id": {
+        "$oid": "649b43ff4beb3d70ba194b29"
+      },
+      "reactionId": {
+        "$oid": "649b43ff4beb3d70ba194b2a"
+      }
+    },
+    {
+      "reactionBody": "Summer hit for sure",
+      "username": "zaralarsson",
+      "createdAt": {
+        "$date": "2023-06-27T20:00:20.654Z"
+      },
+      "_id": {
+        "$oid": "649b44114beb3d70ba194b2e"
+      },
+      "reactionId": {
+        "$oid": "649b44114beb3d70ba194b2f"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece8a"
+  },
+  "thoughtText": "I am on the Eras Tour!",
+  "createdAt": "03/18/2023",
+  "username": "taylorswift"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece8b"
+  },
+  "thoughtText": "I am on the Sweetener Tour!",
+  "createdAt": "03/18/2019",
+  "username": "arianagrande"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece8c"
+  },
+  "thoughtText": "Listen to Reinassance!",
+  "createdAt": "07/29/2022",
+  "username": "beyonce"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece8d"
+  },
+  "thoughtText": "I will be performing at the CapitalFM Summertime Ball!",
+  "createdAt": "04/18/2023",
+  "username": "zaralarsson"
+}]

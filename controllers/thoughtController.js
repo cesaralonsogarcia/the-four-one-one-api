@@ -1,4 +1,3 @@
-const { ObjectId } = require('mongoose').Types;
 const { Thought, User } = require('../models');
 
 module.exports = {
@@ -37,7 +36,7 @@ module.exports = {
 
             // Add thought to user's thoughts array
             const user = await User.findOneAndUpdate(
-                { _id: req.body.userId },
+                { username: req.body.username },
                 { $push: { thoughts: thought._id } },
                 { new: true }
             );

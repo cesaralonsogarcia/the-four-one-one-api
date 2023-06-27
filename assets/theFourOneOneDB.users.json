@@ -1,0 +1,197 @@
+[{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece7d"
+  },
+  "username": "dualipa",
+  "email": "dua@mail.com",
+  "friends": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece7e"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece7f"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece80"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece81"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece82"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece83"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece86"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece87"
+    }
+  ],
+  "thoughts": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece89"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece7e"
+  },
+  "username": "taylorswift",
+  "email": "ts@mail.com",
+  "friends": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece7d"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece7f"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece80"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece81"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece82"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece83"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece86"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece87"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece85"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece84"
+    }
+  ],
+  "thoughts": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece8a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece7f"
+  },
+  "username": "arianagrande",
+  "email": "ari@mail.com",
+  "friends": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece7d"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece83"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece86"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece85"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece84"
+    }
+  ],
+  "thoughts": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece8b"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece80"
+  },
+  "username": "ritaora",
+  "email": "rita@mail.com"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece81"
+  },
+  "username": "mileycyrus",
+  "email": "miley@mail.com"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece82"
+  },
+  "username": "ladygaga",
+  "email": "ldgg@mail.com"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece83"
+  },
+  "username": "zaralarsson",
+  "email": "zara@mail.com",
+  "friends": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece7d"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece7e"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece80"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece81"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece85"
+    },
+    {
+      "$oid": "649b3fcf7fdacab3579ece87"
+    }
+  ],
+  "thoughts": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece8d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece84"
+  },
+  "username": "beyonce",
+  "email": "bey@mail.com",
+  "thoughts": [
+    {
+      "$oid": "649b3fcf7fdacab3579ece8c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece85"
+  },
+  "username": "badgalriri",
+  "email": "rihanna@mail.com"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece86"
+  },
+  "username": "adele",
+  "email": "adele@mail.com"
+},
+{
+  "_id": {
+    "$oid": "649b3fcf7fdacab3579ece87"
+  },
+  "username": "raye",
+  "email": "raye@mail.com"
+}]
