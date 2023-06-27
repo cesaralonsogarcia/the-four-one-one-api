@@ -1,36 +1,12 @@
 const { ObjectId } = require('mongoose').Types;
 const { Thought, User } = require('../models');
 
-// Aggregate function for counting the number of reactions
-const reactionCount = async (req, res) => {
-    try {
-        const reactionCount = await Thought.aggregate([
-            {
-                $match: { _id: ObjectId(req.params.id) }
-            },
-            {
-                $project: {
-                    reactionCount: { $size: '$reactions' }
-                }
-            }
-        ]);
-        return res.json(reactionCount);
-    } catch (err) {
-        console.log(err);
-        res.status(500).json(err);
-    }
-}
-
 module.exports = {
     // Get all thoughts
     async getThoughts(req, res) {
         try {
             const thoughts = await Thought.find({});
-            const thoughtObj = {
-                thoughts,
-                reactionCount: await reactionCount(),
-            };
-            res.json(thoughtObj);
+            res.json(thoughts);
         } catch (err) {
             console.log(err);
             res.status(500).json(err);

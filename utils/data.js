@@ -12,28 +12,16 @@ const users = [
         email: 'ari@mail.com',
     },
     {
-        username: 'selenagomez',
-        email: 'sgomez@mail.com',
+        username: 'ritaora',
+        email: 'rita@mail.com',
     },
     {
         username: 'mileycyrus',
         email: 'miley@mail.com',
     },
     {
-        username: 'katyperry',
-        email: 'perry@mail.com',
-    },
-    {
         username: 'ladygaga',
         email: 'ldgg@mail.com',
-    },
-    {
-        username: 'billieeilish',
-        email: 'billie@mail.com',
-    },
-    {
-        username: 'shakira',
-        email: 'shakira@mail.com',
     },
     {   
         username: 'zaralarsson',
@@ -50,46 +38,49 @@ const users = [
     {
         username: 'adele',
         email: 'adele@mail.com',
-    }
+    },
+    {
+        username: 'raye',
+        email: 'raye@mail.com',
+    },
 ];
 
-const reactions = [
-    '😍',
-    '😂',
-    '😘',
-    '😊',
-    '😭',
-    '😅',
-    '😁',
-    '😩',
-    '😉',
-    '😎',
-    '😢',
-    '😌',
-    '😳',
-    '😜',
-    '😋',
+const thoughts = [
+    {
+        thoughtText: 'Check out my new song!',
+        createdAt: '06/12/2023',
+        username: 'dualipa',
+    },
+    {
+        thoughtText: 'I am on the Eras Tour!',
+        createdAt: '03/18/2023',
+        username: 'taylorswift',
+    },
+    {
+        thoughtText: 'I am on the Sweetener Tour!',
+        createdAt: '03/18/2019',
+        username: 'arianagrande',
+    },
+    {
+        thoughtText: 'Listen to Reinassance!',
+        createdAt: '07/29/2022',
+        username: 'beyonce',
+    },
+    {
+        thoughtText: 'I will be performing at the CapitalFM Summertime Ball!',
+        createdAt: '04/18/2023',
+        username: 'zaralarsson',
+    },
 ];
-
-// Get a random element from an array
-const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 // Get users
 const getUsers = () => {
     return users;
 };
 
-// Get random reactions
-const getRandomReactions = (int) => {
-    const reactionsArr = [];
+// Get thoughts
+const getThoughts = () => {
+    return thoughts;
+};
 
-    for (let i = 0; i < int; i++) {
-        reactionsArr.push({
-            reactionBody: getRandomElement(reactions),
-            username: users[i].username,
-        });
-    }
-    return reactionsArr;
-}
-
-module.exports = { getUsers, getRandomReactions };
+module.exports = { getUsers, getThoughts };
