@@ -26,7 +26,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 Click on the screenshot to see the walkthrough video:  
 
-[<img src='https://github.com/cesaralonsogarcia/the-four-one-one-api/blob/main/assets/images/insomnia-screenshot.PNG'>](https://watch.screencastify.com/v/FmNoURXp54dzCmz8ACJQ "The 411 API")
+[<img src='https://github.com/cesaralonsogarcia/the-four-one-one-api/blob/main/assets/images/insomnia-screenshot.PNG'>](https://watch.screencastify.com/v/uAe9AW6MbP1hT21qLCrt "The 411 API")
 
 ## GitHub Repository
 
